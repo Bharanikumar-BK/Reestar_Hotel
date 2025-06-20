@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url("beautiful-chinise-landscape.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+.Items{
+    text-align: center;
+}
+.hotel{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px; 
+}
+img{
+    height: 250px;
+    width: 250px;
+    
+}
+.food{
+    display: inline-block;
+    margin: 10px;
+    width: 250px;
+    border: solid white;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.Contact{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-top: 15px;
+    
+
+}
+.fillform{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.send{
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+}
+input{
+    border-radius: 5px;
+}
+input:hover{
+    border: solid yellow;
+}
+
